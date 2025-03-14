@@ -31,7 +31,6 @@ def write_contour_to_file(label,contours,file):
     for contour in contours:
         file.write(label + str(cv2.contourArea(contour)) + '\n')
 
-
 def draw_contour_area(img, contours):
     for contour in contours:
         area = cv2.contourArea(contour)
@@ -47,13 +46,12 @@ def draw_contour_area(img, contours):
         cv2.putText(img, f"{int(area)}", (cx, cy),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1, cv2.LINE_AA) # opacity=0.5, color=blue, width=1
 
-
 def find_contours(imgThresh, img):
     contours, hierarchy = cv2.findContours(imgThresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     min_area = cv2.getTrackbarPos("Min Area for Contours", "Settings")
     filtered_contours, removed_contours = filter_contours(contours, min_area)
 
-    with open("contours.txt", "w") as f:
+    with open("/home/connorc/PycharmProjects/Thames/contours.txt", "w") as f:
         write_contour_to_file("filtered: ", filtered_contours, f)
         write_contour_to_file("removed:  ", removed_contours, f)
 
