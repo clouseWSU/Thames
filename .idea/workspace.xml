@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fd307c-4a33-4f6b-bfd0-10f2dc4b1ce3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Thames.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="56fd307c-4a33-4f6b-bfd0-10f2dc4b1ce3" name="Changes" comment="Basic contour for static image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +78,35 @@
       <option name="presentableId" value="Default" />
       <updated>1741743459332</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic contour for static image">
+      <option name="closed" value="true" />
+      <created>1741906893201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741906893201</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Basic contour for static image">
+      <option name="closed" value="true" />
+      <created>1741906904041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741906904041</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Basic contour for static image">
+      <option name="closed" value="true" />
+      <created>1741906907920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741906907920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic contour for static image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic contour for static image" />
   </component>
 </project>
